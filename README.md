@@ -14,7 +14,9 @@
 - [ ] 백준 100일 연속 solve
 - [x] 백준 대회 나가보기 ([2022.02.20](https://www.acmicpc.net/contest/view/760))
 - [ ] 백준 대회 10등 안에 입상
-- [ ] Cordforce 대회 나가보기
+- [x] Cordforce 대회 나가보기 ([2022.03.09](https://codeforces.com/contest/1650))
+- [ ] Cordforce 대회 1000등 이내
+- [ ] Cordforce Expert (파란색) 달성
 - [ ] 플레 이상 문제 C++이나 Js로 풀어보기
 
 
