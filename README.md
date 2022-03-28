@@ -17,8 +17,8 @@
 - [x] Cordforce 대회 나가보기 ([2022.03.09](https://codeforces.com/contest/1650))
 - [x] Cordforce 대회 1000등 이내 ([2022.03.28](https://codeforces.com/contest/1658))
 - [ ] Cordforce 대회 100등 이내
-- [ ] Cordforce Expert (파란색) 달성
+- [x] Cordforce Expert (Blue) 달성 (2022.03.28)
+- [ ] Cordforce Candidate Master (Purple) 달성
 - [ ] 플레 이상 문제 C++이나 Js로 풀어보기
-
 
 
