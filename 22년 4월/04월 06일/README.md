@@ -85,3 +85,69 @@ while True:
 ```
 
 그래서 답을 구하는 `sol`함수 마지막에 위와 같이 값을 반환해주었다. 틀린 로직이 없었는지 1트 AC. 한동안 2 SAT만 풀다가 오랜만에 푼 분리 집합 문제다. 역시 이런 문제가 재밌다 ㅋㅋㅋ
+
+
+
+## 길의 개수 - [백준 1533](https://www.acmicpc.net/problem/1533)
+
+분할 정복 행렬 거듭 제곱
+
+```python
+from sys import stdin
+
+input = stdin.readline
+
+
+def multiple_matrix(first, second=None):
+    if not second:
+        second = first
+    sz = len(first)
+    res = [[0] * sz for _ in range(sz)]
+    for jj in range(sz):
+        for ii in range(sz):
+            for kk in range(sz):
+                res[ii][kk] += first[ii][jj] * second[jj][kk]
+    for ii in range(sz):
+        for jj in range(sz):
+            res[ii][jj] %= div
+    return res
+
+
+div = 10 ** 6 + 3
+n, s, e, t = map(int, input().split())
+table = [[0] * (5 * n) for _ in range(5 * n)]
+for i in range(n):
+    for k in range(4):
+        table[5 * i + k][5 * i + k + 1] = 1
+    line = list(map(int, input().strip()))
+    for j in range(n):
+        x = line[j]
+        if x:
+            table[5 * i + x - 1][5 * j] = 1
+result = [[0] * (5 * n) for _ in range(5 * n)]
+for i in range(5 * n):
+    result[i][i] = 1
+while t > 0:
+    if t & 1:
+        result = multiple_matrix(result, table)
+    table = multiple_matrix(table)
+    t >>= 1
+print(result[5 * (s - 1)][5 * (e - 1)])
+```
+
+시작점에서 끝까지 정확히 몇 초에 가는 경로가 얼마나 있는지 구하는 문제다. 행렬의 거듭제곱 꼴로 구하고 싶지만, 각 간선의 가중치가 달라 바로 곱하면 문제가 생긴다. 다행히 간선의 가중치가 최대 5여서, 각 간선을 분리시킬 수 있다!
+
+```python
+table = [[0] * (5 * n) for _ in range(5 * n)]
+for i in range(n):
+    for k in range(4):
+        table[5 * i + k][5 * i + k + 1] = 1
+    line = list(map(int, input().strip()))
+    for j in range(n):
+        x = line[j]
+        if x:
+            table[5 * i + x - 1][5 * j] = 1
+```
+
+각 인덱스를 5배 해주고, 위의 코드처럼 조건에 맞게 이어주면 되는 것이다. 그 다음은 단순 행렬 거듭 제곱 풀이. `t`의 범위가 매우 크니, 분할 정복으로 계산해주면 AC.
+
