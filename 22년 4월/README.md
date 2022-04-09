@@ -33,3 +33,10 @@
 
 - **[백준 19703 실험]** 2 SAT. 간선 덜 그리는 테크닉 확인!! :heavy_check_mark::heavy_check_mark: 
 - **[Codeforces]** Round #781 
+
+#### 4월 9일
+
+- **[코딩 대회]** Google Codejam Round 1A
+- **[코딩 테스트]** 오늘의집 코테
+- **[Codeforces]** Educational Round #126
+- **[백준 9275 토끼와 상근]** 분리 집합 / 유일한 파이썬 정답!
