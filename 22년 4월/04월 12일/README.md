@@ -1,0 +1,7 @@
+# 0412
+
+바쁘다 바빠!
+
+
+
+## 2018 KAKAO BLIND RECRUITMENT
