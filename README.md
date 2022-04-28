@@ -19,5 +19,16 @@
 - [ ] Cordforce 대회 100등 이내
 - [x] Cordforce Expert (Blue) 달성 (2022.03.28)
 - [ ] Cordforce Candidate Master (Purple) 달성
-- [ ] 플레 이상 문제 C++이나 Js로 풀어보기
+- [ ] 플레 이상 문제 C++이나 Java로 풀어보기
 
+
+
+## Django
+
+- [x] 프로젝트 해보기 (2022.04.25 [Thunderman 서비스 시작](https://thunderman.herokuapp.com/))
+
+
+
+## JavaScript
+
+- [ ] https://javascript30.com/ 보고 30일간 따라하기
