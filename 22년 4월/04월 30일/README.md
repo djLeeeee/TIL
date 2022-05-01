@@ -86,3 +86,80 @@ print('1' if grundy[n] else '2')
 
 
 ## JavaScript30 - Practice 02 JS AND CSS CLOCK
+
+```css
+...
+
+.hand {
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: right center;
+}
+
+.hour-hand {
+    width: 50%;
+    height: 6px;
+}
+
+.min-hand{
+    width: 50%;
+    height: 6px;
+}
+
+.second-hand {
+    width: 50%;
+    height: 3px;
+    transition-property: all;
+    transition-duration: 0.05s;
+    transition-timing-function: ease;
+}
+```
+
+```javascript
+const hourHand = document.querySelector('.hour-hand');
+const minuteHand = document.querySelector('.min-hand');
+const secondHand = document.querySelector('.second-hand');
+
+function setClockTime() {
+    const now = new Date();
+    const hourDegree = (90 + now.getHours() * 30 + now.getMinutes() * 0.5) % 360;
+    const minuteDegree = (90 + now.getMinutes() * 6 + now.getSeconds() * 0.1) % 360;
+    const secondDegree = (90 + now.getSeconds() * 6) % 360;
+    hourHand.style.transform = `rotate(${hourDegree}deg)`;
+    minuteHand.style.transform = `rotate(${minuteDegree}deg)`;
+    secondHand.style.transform = `rotate(${secondDegree}deg)`;
+}
+
+setInterval(setClockTime, 1000);
+setClockTime();
+```
+
+css style 속성 중 `transform`에 `rotate(n deg)`로 입력하면 n도 (라디안 아님!) 만큼 시계방향으로 회전한다. 중심을 설정하지 않을 경우 `center center`, 즉 중앙 지점이 기본값이다. 중심 설정은 아래와 같이 하면 된다.
+
+```css
+.hand {
+	...
+    transform-origin: right center;
+}
+```
+
+`transition`은 `property`, `duration`, `delay`, `timing-function` 순으로 입력된다고 한다. `property`는 어떤 값에 적용할 것인지다. 현재 초침 전체에 `transition`을 걸어줄 거니까 `all`을 주었다. 1초 간격으로 움직여야 하니까 `duration`은 0.05초 정도로 주었다. `timing-function`은 `ease`를 사용했다. 처음과 끝은 느리게, 중간은 빠르게 이동하는 함수다.
+
+> transition의 timing function에는 기본 제공하는 함수가 여러 있다. 사용자 지정도 가능하다.
+>
+> 자세한 얘기는 [공식 mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)를 참고하는 게 좋을 듯 하다. 
+
+```css
+.second-hand {
+    width: 50%;
+    height: 3px;
+    transition-property: all;
+    transition-duration: 0.05s;
+    transition-timing-function: ease;
+}
+```
+
+`JAVASCRIPT30`에서 제공한 답안 코드에는 `ease` 대신 사용자 설정 함수를 사용했다. 또한, 초침 뿐만 아니라 시침과 분침에도 해당 애니메이션을 적용했다. 사소한 문제니 고칠 필요는 없을 듯.
+
+한 가지 문제가 있는데, **각도가 354도에서 0도가 되는 순간 `transition`이 354에서 0으로 감소하는 방향으로 들어가 초침이 해당하는 1초 구간에서 이상하게 움직인다.** 안타깝게도 제공된 답안 코드도 해당 이슈를 해결하진 않았다. 오늘은 시간이 늦었으니 다음에 해결해보자.
