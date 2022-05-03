@@ -88,7 +88,7 @@
 
 #### 4월 25일
 
-- **[Django]** `Heroku`로 프로젝트 배포
+- **[Django]** `Heroku`로 프로젝트 배포 :heavy_check_mark:
 - **[JS]** 자바스크립트로 백준 풀기
 
 #### 4월 26일
@@ -106,7 +106,7 @@
 
 - **[백준 13034 다각형 게임]** 스프라그-그런디 정리
 - **[백준 16887]** 루트 님 게임
-- **[JS]** `JavaScript30` 시작 / 1번 `JS Drum Kit` 완료 
+- **[JS]** `JavaScript30` 시작 / 1번 `JS Drum Kit` 완료 :heavy_check_mark: 
 
 #### 4월 29일
 
@@ -116,4 +116,4 @@
 
 - **[백준 5386 금화 게임]** 스프라그-그런디 정리
 - **[백준 3596 크로스와 크로스]** 스프라그-그런디 정리
-- **[JS]** `02 JS AND CSS CLOCK` 완료 
+- **[JS]** `02 JS AND CSS CLOCK` 완료 :heavy_check_mark:
