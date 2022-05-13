@@ -33,6 +33,15 @@
 - **[알고리즘]** 볼록 껍질을 이용한 DP 최적화 (CHT) :heavy_check_mark::heavy_check_mark::heavy_check_mark: 
 - **[백준 6171 땅따먹기]** DP, CHT :heavy_check_mark:
 
-#### 5월 9일
+#### 5월 11일
+
+- **[백준 2493 탑]** 스택
+- **[백준 13263 나무 자르기]** DP, CHT :heavy_check_mark:
+
+#### 5월 12일
+
+- **[백준 9495 바둑]** 이분 매칭 :heavy_check_mark:
+
+#### 5월 13일
 
 - 
