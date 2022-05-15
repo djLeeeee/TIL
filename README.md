@@ -20,6 +20,7 @@
 - [x] Cordforce Expert (Blue) 달성 (2022.03.28)
 - [ ] Cordforce Candidate Master (Purple) 달성
 - [ ] 플레 이상 문제 C++이나 Java로 풀어보기
+- [ ] 난이도 루비 문제 풀어보기
 
 
 
