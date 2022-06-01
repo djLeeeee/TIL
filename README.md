@@ -21,15 +21,12 @@
 - [ ] Cordforce Candidate Master (Purple) 달성
 - [ ] 플레 이상 문제 C++이나 Java로 풀어보기
 - [ ] 난이도 루비 문제 풀어보기
+- [ ] 백준 1000 sol
 
 
 
-## Django
+## 웹 개발
 
-- [x] 프로젝트 해보기 (2022.04.25 [Thunderman 서비스 시작](https://thunderman.herokuapp.com/))
-
-
-
-## JavaScript
-
+- [x] 프로젝트 해보기 (2022.04.25 [Thunderman 서비스 시작](https://thunderman.herokuapp.com/)) Django
 - [ ] https://javascript30.com/ 보고 30일간 따라하기
+- [ ] 영화 추천 프로젝트 배포 (Vue + Django)
