@@ -86,7 +86,7 @@ def dfs(idx):
 
 
 
-## Algorithm Teaching - [백준 18029](https://www.acmicpc.net/problem/18029)
+## :diamond_shape_with_a_dot_inside: Algorithm Teaching - [백준 18029](https://www.acmicpc.net/problem/18029)
 
 이분 매칭
 
@@ -175,3 +175,51 @@ minimum path cover를 구하는 문제는 몇 번 풀어봤다. 노드들을 양
 
 그리고 오늘, 드디어 호프크로프트 카프를 이해했다. 이해하자마자, 이 문제가 생각나서 코드를 다시 제출했다. 그리고 결국 AC. 파이썬으로 푼 사람은 나 밖에 없는 것 같아 더욱 뿌듯하다. 인터넷 상에도 이해하기 쉬운 편의 파이썬으로 짠 호프크로프트 카프 알고리즘이 없는 거 같다. 일단 내가 못 찾았다...
 
+
+
+## 수학 게임 - [백준 2862](https://www.acmicpc.net/problem/2862)
+
+게임 이론
+
+```python
+# 규칙 찾기용
+def solution(t):
+    for i in range(1, t + 1):
+        if not turn(t - i, i):
+            return i
+
+
+def turn(remain, pre):
+    if remain == 0:
+        return 0
+    for i in range(1, min(remain, 2 * pre) + 1):
+        res = turn(remain - i, i) + 1
+        if res % 2:
+            return 1
+    return 0
+
+
+n = int(input())
+for ii in range(1, n + 1):
+    print(ii, solution(ii))
+```
+
+```python
+# 정답 코드
+from sys import stdin
+
+input = stdin.readline
+
+fb = [1, 2]
+while fb[-1] < 10 ** 15:
+    fb.append(fb[-1] + fb[-2])
+n = int(input())
+for i in fb[::-1]:
+    if i == n:
+        print(i)
+        break
+    elif i < n:
+        n -= i
+```
+
+10<sup>15</sup> 스케일인 거 보고 규칙 찾는 문제라고 눈치챘다. 일단 규칙을 찾아야 하니 규칙 찾기 용 코드를 짰다. 게임 이론 생각하면서 짜줬다. 규칙은 정답 코드 내용 그대로.
