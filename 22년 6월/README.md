@@ -8,3 +8,21 @@
 - **[백준 4008 특공대]** DP, CHT
 - **[백준 19943 조명등]** DP, CHT
 - **[알고리즘]** 헝가리안
+
+#### 6월 3일
+
+- **[Codeforce]** Round #796 / Div.2 / 4 sol
+
+#### 6월 4일
+
+- **[백준 1348 주차장]** 이분 매칭, BFS, 이분 탐색
+
+#### 6월 5일
+
+- **[CS]** flush, buffer... 공부 더 해야 할 듯.
+
+#### 6월 6일
+
+- **[백준 2042 구간 합 구하기]** 세그먼트 트리 :heavy_check_mark:
+- **[알고리즘]** 세그먼트 트리 :heavy_check_mark: :heavy_check_mark: :heavy_check_mark:
+
