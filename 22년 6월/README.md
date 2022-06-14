@@ -37,4 +37,12 @@
 - **[백준 16056 Plug It In!]** 이분 매칭
 - **[백준 1126 같은 탑]** DP
 - **[백준 13441 마법의 나무]** 이분 매칭
-- 
+
+#### 6월 13일
+
+- **[코딩테스트]** 현대오토에버, SKT, 오늘의집
+- **[프로젝트 MovieJOY]** 카카오 유저의 권한 설정 / 서버 배포 :heavy_check_mark:
+
+#### 6월 14일
+
+- **[Python]** requests, open('w', encoding="UTF-8-sig"), print(flush=True)
