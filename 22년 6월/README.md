@@ -46,3 +46,11 @@
 #### 6월 14일
 
 - **[Python]** requests, open('w', encoding="UTF-8-sig"), print(flush=True)
+
+#### 6월 17일
+
+- **[백준 18286 직사각형 색칠 2]** 분할 정복 거듭제곱, 비트마스킹 DP
+
+#### 6월 18일
+
+- **[백준 13165 이것도 해결해 보시지]** 프리발즈 알고리즘 :heavy_check_mark:
