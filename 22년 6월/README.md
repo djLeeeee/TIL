@@ -71,3 +71,7 @@
 
 - **[백준 13547 수열과 쿼리 5]** mo's algorithm :heavy_check_mark:
 - **[백준 13548 수열과 쿼리 6]** mo's algorithm
+
+#### 6월 30일
+
+- **[백준 8462 배열의 힘]** mo's algorithm
