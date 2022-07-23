@@ -20,8 +20,8 @@
 - [x] Cordforce Expert (Blue) 달성 (2022.03.28)
 - [ ] Cordforce Candidate Master (Purple) 달성
 - [ ] 플레 이상 문제 C++이나 Java로 풀어보기
-- [ ] 난이도 루비 문제 풀어보기
-- [ ] 백준 1000 sol
+- [x] 난이도 루비 문제 풀어보기 [(2022.07.21)](https://www.acmicpc.net/status?radio-extended=on&problem_id=18527&user_id=bomul1128&language_id=-1&result_id=-1&from_problem=1)
+- [x] 백준 1000 sol (2022.07.23)
 
 
 
