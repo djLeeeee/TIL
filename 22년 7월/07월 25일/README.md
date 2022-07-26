@@ -62,3 +62,27 @@ print("koosaga" if gn else "cubelover")
 ![image](https://user-images.githubusercontent.com/97663863/180824412-97809d9c-96bb-4e1b-b029-59ae019250ed.png)
 
 쉬는 시간 틈틈히 설계해 집에 와서 다이아 문제 풀기... 꽤 기분 좋다.
+
+간만에 게임 이론 문제나 푸니 재밌다!
+
+
+
+## 숫자 카드 제거 게임 - [백준 18940](https://www.acmicpc.net/problem/18940)
+
+스프라그 그런디
+
+```Python
+from sys import stdin
+
+input = stdin.readline
+
+s = [4, 8, 20, 24, 28]
+for _ in range(int(input())):
+    x = int(input())
+    rx = x % 34
+    print('Platina' if x == 14 or x == 34 or rx in s else 'Yuto')
+```
+
+그런디 수 구하는 거야 금방 할 수 있다. 양 끝에서 뽑을 떄와 두 뭉탱이로 쪼개질 때. 이렇게 고려해줘서 그런디 수를 구해줬다.
+
+근데 도무지 규칙이 안 보였다... 계속 들여다보니 34주기로 반복되는 것을 찾았다. 10000까지 돌려봤는데 14, 34일 때만 예외 케이스가 나오는 거 같아서 그대로 제출했더니 AC.
