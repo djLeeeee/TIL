@@ -6,7 +6,7 @@
 
 
 
-## 피보나치 수열처럼 보이지만... - [백준 13718](https://www.acmicpc.net/problem/13716)
+## 피보나치 수열처럼 보이지만... - [백준 13716](https://www.acmicpc.net/problem/13716)
 
 행렬 분할정복 거듭제곱
 
