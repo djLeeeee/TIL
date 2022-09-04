@@ -72,7 +72,7 @@ $$
 그러면, 행렬 `C`를 j <= i 에 대해 C[i][j] = <sub>i</sub>C<sub>j</sub> 로 정의 했을 때, 아래 식들이 성립하는 걸 확인 할 수 있다.
 
 $$
-F_{i + 1, i + 1} = C \cdot F_{i + 1, i}
+F_{i + 1, i + 1} = C \cdot F_{i + 1, i} \\
 F_{i + 2, i + 1} = C \cdot F_{i + 1, i} + C \cdot F_{i, i}
 $$
 
