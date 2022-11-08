@@ -151,4 +151,142 @@ print(ans)
 
 > 2SAT, 구현
 
-1
+올해 초 4월달 쯤?에 처음으로 봤던 문제다. DFS로 풀어보려다가 아무리 생각해도 시간 초과날 것 같아서 관뒀다. 그러다가 가로 요소와 세로 요소로 나눈 뒤 두 요소 간의 상관 관계를 그래프로 나타내 2SAT로 할 수 도 있겠다는 생각을 했다. 하지만 구현이 그리 쉽진 않았다...
+
+그리고 오늘 퇴근하자마자 계속 붙잡고 구현했더니 2시간에 걸려 완성했다. 물론 중간에 딴짓 좀 했다.
+
+가로, 세로 요소를 넘버링하는 건 이분 매칭 때 자주하던 일이다.
+
+```Python
+n, m = map(int, input().split())
+board = [list(input()) + ['#'] for _ in range(n)] + [['#'] * m]
+rn = [[0] * m for _ in range(n)]
+cn = [[0] * m for _ in range(n)]
+rc = 0
+cc = 0
+star = []
+for i in range(n):
+    for j in range(m):
+        if board[i][j] != '#':
+            if board[i][j] == 'O':
+                ii, ij = i, j
+            elif board[i][j] == '*':
+                star.append((i, j))
+            if rn[i][j] == 0:
+                rc += 1
+                nj = j
+                while nj < m and board[i][nj] != '#':
+                    rn[i][nj] = rc
+                    nj += 1
+            if cn[i][j] == 0:
+                cc += 1
+                ni = i
+                while ni < n and board[ni][j] != '#':
+                    cn[ni][j] = cc
+                    ni += 1
+```
+
+그 다음은 각 요소 간의 관계를 나타내야 한다.
+
+```Python
+... # 앞의 내용들
+graph = [[] for _ in range(rc + cc + 1)]
+graph_inv = [[] for _ in range(rc + cc + 1)]
+for i in range(n):
+    for j in range(m):
+        if board[i][j] != '#':
+            if board[i - 1][j] == '#' or board[i + 1][j] == '#':
+                graph[rc + cn[i][j]].append(rn[i][j])
+                graph_inv[rn[i][j]].append(rc + cn[i][j])
+            if board[i][j - 1] == '#' or board[i][j + 1] == '#':
+                graph[rn[i][j]].append(rc + cn[i][j])
+                graph_inv[rc + cn[i][j]].append(rn[i][j])
+```
+
+상하좌우에 벽이 있을 때만 방향 전환이 가능하다는 점을 이용해 `graph`와 `graph_inv`를 그려줬다. pure SCC 코사라주를 할 거라 정말 오랜만에 역방향 그래프도 그려줬다. 이제 SCC를 통해 `graph_scc`를 완성해준 뒤,
+
+```Python
+def make_can_go(idx):
+    if can_go[idx]:
+        return can_go[idx]
+    temp = {idx}
+    for adj in graph_scc[idx]:
+        temp.update(make_can_go(adj))
+    can_go[idx] = temp
+    return temp
+
+
+... # 앞 내용들
+can_go = [set() for _ in range(component + 1)]
+graph = [[] for _ in range(component * 2 + 1)]
+for i in range(1, component + 1):
+    make_can_go(i)
+    for j in range(1, i):
+        if j not in can_go[i] and i not in can_go[j]:
+            graph[i].append(-j)
+            graph[j].append(-i)
+del graph_scc
+```
+
+이제 2SAT에 사용해줄 `graph`를 그려주기 시작하면 된다. 함수 재활용하려고 변수명을 따로 분리하지 않았다. 물론 제일 좋은 건 SCC 구현체를 따로 만들어놓는 것이겠지만, 일단 넘어가자. `can_go(i)`는 i번째 컴포넌트에서 갈 수 있는 컴포넌트 번호들의 집합이다. 즉, i nor j 를 그리기 위해 필요하다. 위 코드에 i nor j가 되기 위한 조건들이 나와있다. i에서 j 못 가고, j에서 i 못 가고. 즉 i와 j가 공존하지 못한다는 뜻이다.
+
+```Python
+for x, y in star:
+    r, c = scc[rn[x][y]], scc[rc + cn[x][y]]
+    graph[-r].append(c)
+    graph[-c].append(r)
+```
+
+그 다음은 별을 모두 먹어야 하는데, 여긴 간단하다. r or c가 만족해야 한다. 그래야 별을 먹을테니까. 이부분 때문에 2SAT로 해결해야 하는 문제가 됐다(or 간선 때문에).
+
+```Python
+... # 앞의 내용들
+ir, ic = scc[rn[ii][ij]], scc[rc + cn[ii][ij]]
+for c in {ir, ic}:
+    graph[-c].append(c)
+    visited = [False] * (2 * component + 1)
+    stack = []
+    for i in range(1, component + 1):
+        if not visited[i]:
+            dfs(i)
+        if not visited[-i]:
+            dfs(-i)
+    scc = [0] * (2 * component + 1)
+    com = 0
+    flag = True
+    while stack and flag:
+        now = stack.pop()
+        if not scc[now]:
+            com += 1
+            dfs_inv_2sat(now)
+    graph[-c].pop()
+    if flag:
+        print('YES')
+        exit()
+print('NO')
+```
+
+그 다음에 할 거는 답을 찾기 위한 2SAT이다. 시작점의 가로 요소 ir와 세로 요소 ic 둘 중 하나가 반드시 참이여야 하는데, 단순하게 ir 참, ic 참 간선을 동시에 그리면 ir ic 간에 모순이 생길 수 있을 것 같아 경우를 나눠줬다. 하지만 결과는 WA. 시간 초과도 아니고, WA는 정말 오랜만에 본 것 같아서 이전 코드에 틀린 부분이 있난 열심히 찾아봤는데, 별 거 없었다... 
+
+그러다가, 시작 요소가 정해지면 갈 수 없는 요소가 정해지는 것을 깨달았다. 그리고 이는 `can_go`에 이미 계산을 해놓았다!
+
+```Python
+... # 앞 내용
+ir, ic = scc[rn[ii][ij]], scc[rc + cn[ii][ij]]
+for c in {ir, ic}:
+    for j in range(1, component + 1):
+        if j not in can_go[c]:
+            graph[j].append(-j)
+    graph[-c].append(c)
+    ... # 2SAT
+    graph[-c].pop()
+    for j in range(1, component + 1):
+        if j not in can_go[c]:
+            graph[j].pop()
+    if flag:
+        print('YES')
+        exit()
+print('NO')
+```
+
+그제서야 모든 상황이 고려가 됐는지, AC를 받았다. 요새 점수 올리기 힘들었는데, 어쩌다보니 다1을 2문제나 풀어서 12점이나 올랐다. 티어 다2까지 단 4점 남았다!
