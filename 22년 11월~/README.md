@@ -7,3 +7,4 @@
 
 - **[코딩 테스트]** LG CNS 코드몬스터
 - **[백준 11438 LCA 2]** LCA :heavy_check_mark:
+- **[백준 24520 Meet In The Middle]** LCA :heavy_check_mark:
