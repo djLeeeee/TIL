@@ -21,3 +21,118 @@
 TIL에는 실패해서 안 썼던 거 같지만, Heavy-Light 분할을 8월 초에 구현해 봤었다. 시간 초과가 났었는데 LCA 코드가 제대로 구현되지 못해서 그랬었다. 어찌보면 당연하다. LCA 공부도 안하고 바로 Heavy-light 분할이 될 리가 없지
 
 그래서 정말 오랜만에 백준 단계별 풀어보기에 들어가 LCA 카테고리 문제를 풀기로 했다.
+
+LCA의 아이디어는 이미 알고 있었다. 그래서 그냥 바로 짜봤다.
+
+```Python
+from sys import stdin
+
+input = stdin.readline
+
+
+def find(a, b):
+    if depth[a] < depth[b]:
+        a, b = b, a
+    da, db = depth[a], depth[b]
+    for bit in range(md):
+        if (da - db) & (1 << bit):
+            a = parents[a][bit]
+    if a == b:
+        return a
+    for bit in range(md - 1, -1, -1):
+        if parents[a][bit] != parents[b][bit]:
+            a = parents[a][bit]
+            b = parents[b][bit]
+    return parents[a][0]
+
+
+n = int(input())
+md = 20
+parents = [[0] * md for _ in range(n + 1)]
+graph = [[] for _ in range(n + 1)]
+depth = [0] * (n + 1)
+for _ in range(n - 1):
+    x, y = map(int, input().split())
+    graph[x].append(y)
+    graph[y].append(x)
+points = [1]
+depth[1] = 1
+while points:
+    now = points.pop()
+    d = depth[now]
+    for nei in graph[now]:
+        if not depth[nei]:
+            depth[nei] = d + 1
+            points.append(nei)
+            parents[nei][0] = now
+del graph
+for d in range(1, md):
+    for idx in range(1, n + 1):
+        parents[idx][d] = parents[parents[idx][d - 1]][d - 1]
+for _ in range(int(input())):
+    x, y = map(int, input().split())
+    print(find(x, y))
+```
+
+[백준 11438](https://www.acmicpc.net/problem/11438)의 정답 코드이다. 별 어려움 없이 통과해버려서 너무 어이가 없었다... 각 변수의 의미를 써보면,
+
+- `graph` : 트리 구조를 그리기 위한 양방향 간선 그래프. 트리가 완성되면 필요없다.
+- `depth` : 루트 노드로부터 떨어진 거리. DFS로 트리를 만들면서 구할 수 있다.
+- `parents` : 공통 조상을 찾기 위한 2차원 배열. `parents[idx][k] = p`는 idx 노드의 2<sup>k</sup> 번 째 부모 노드는 p임을 의미한다.
+
+그럼 `parents`를 어떻게 만들 것이냐. 일단 초기 상태를 만들어주자.
+
+```Python
+while points:
+    now = points.pop()
+    d = depth[now]
+    for nei in graph[now]:
+        if not depth[nei]:
+            depth[nei] = d + 1
+            points.append(nei)
+            parents[nei][0] = now
+```
+
+DFS를 실행할 때, 직속 부모-자식 노드 관계의 now-nei는, parents[nei][0] = now라고 저장된다. 그 다음 정보 갱신이 핵심인데, i에서 k 번째 위의 부모 노드를 j라고 할 때, i에서 2 * k 번째 위의 부모 노드는 j에서 k번째 위의 부모 노드와 일치한다. 따라서 아래와 같이 쓸 수 있다.
+
+```Python
+for d in range(1, md):
+    for idx in range(1, n + 1):
+        parents[idx][d] = parents[parents[idx][d - 1]][d - 1]
+```
+
+그 다음은 쿼리가 들어왔을 때 답을 출력해줘야 한다. x, y의 LCA를 어떻게 찾아주냐면,
+
+1. x와 y의 깊이를 비교한다. 더 깊은 노드를 더 얕은 노드의 깊이만큼 끌어올린다.
+2. 같은 거리만큼 두 노드가 올라가면서 처음으로 같은 노드가 최소 공통 조상이다!
+
+트리 구조를 그려보면 왜 이게 정답인지 알 수 있다. 별 어려운 내용은 아니니 생략.
+
+```Python
+def find(a, b):
+    
+    # 편의상 a를 더 깊은 노드로 설정하기
+    if depth[a] < depth[b]:
+        a, b = b, a
+    da, db = depth[a], depth[b]
+
+    # a를 b와 같은 깊이로 끌어올리기(1번 과정). 비트 연산으로 구현 가능하다.
+    for bit in range(md):
+        if (da - db) & (1 << bit):
+            a = parents[a][bit]
+
+    # 이미 같은 노드를 가리키고 있다면, 그 노드가 공통 조상.
+    if a == b:
+        return a
+
+    # 같은 거리만큼 두 노드를 끌어올린다(2번 과정).
+    for bit in range(md - 1, -1, -1):
+        if parents[a][bit] != parents[b][bit]:
+            a = parents[a][bit]
+            b = parents[b][bit]
+    
+    # 가장 마지막으로 부모가 다른 위치까지 끌어올렸으니까, 한 칸 더 가야 정답.
+    return parents[a][0]
+```
+
+이렇게 해서 최소 공통 조상 알고리즘도 구현해봤다. 이젠 웰노운 중에선 정말 유량 알고리즘들만 남은 느낌?
