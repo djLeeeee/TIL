@@ -18,8 +18,14 @@
 - **[인프라]** Label Studio 작업 환경 조성
 - **[백준 13055 K-Inversion]** FFT + `decimal` 라이브러리 사용 풀이
 
-### 11월 27일
+#### 11월 27일
 
 - **[백준 2336 굉장한 학생]** 세그먼트 트리
 - **[백준 17399 트리의 외심]** LCA
 - **[백준 13896 Sky Tax]** LCA
+
+### 12월 4일
+
+- **[알고리즘]** Heavy-light 분할 :heavy_check_mark:
+- **[백준 13510 트리와 쿼리 1]** Heavy-light 분할 :heavy_check_mark:
+- **[백준 17033 Cow Land]** Heavy-light 분할  
