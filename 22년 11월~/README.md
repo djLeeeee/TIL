@@ -24,8 +24,14 @@
 - **[백준 17399 트리의 외심]** LCA
 - **[백준 13896 Sky Tax]** LCA
 
-### 12월 4일
+#### 12월 4일
 
 - **[알고리즘]** Heavy-light 분할 :heavy_check_mark:
 - **[백준 13510 트리와 쿼리 1]** Heavy-light 분할 :heavy_check_mark:
 - **[백준 17033 Cow Land]** Heavy-light 분할  
+
+#### 12월 8일
+
+- **[백준 13575 보석 가게]** FFT, 분할 정복 거듭제곱
+- **[백준 2927 남극 탐험]** Heavy-light 분할, 분리 집합, 오프라인 쿼리
+- **[백준 15337 Starting a Scenic Railroad Service]** 누적 합, 세그먼트 트리  
