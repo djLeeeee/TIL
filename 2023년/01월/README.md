@@ -10,3 +10,11 @@
 - **[백준 1518 뉴 매직 스퀘어]** 이분 매칭 :heavy_check_mark:
 - **[알고리즘]** 볼록 껍질 :heavy_check_mark::heavy_check_mark:
 - **[백준 1708 볼록 껍질]** 볼록 껍질
+
+#### 1월 4일
+
+- **[백준 11406 책 구매하기 2]** 최대 유량 :heavy_check_mark:
+
+#### 1월 8일
+
+- **[백준 13512 트리와 쿼리 3]** Heavy-light decomposition
