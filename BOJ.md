@@ -86,3 +86,7 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 - [BOJ 9762 โรงงานลูกกวาด (Candy Factory)](https://www.acmicpc.net/problem/9762)
 
   Solved at 2023/02/05, rated S5
+
+- [BOJ 14127 Zone](https://www.acmicpc.net/problem/14127)
+
+  Solved at 2023/02/05, rated G5
