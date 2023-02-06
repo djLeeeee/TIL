@@ -40,6 +40,9 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 
   Solved at 2023/01/27, rated G3
 
+- [BOJ 8301 Evacuation](https://www.acmicpc.net/problem/8301)
+
+  Solved at 2023/02/07, **rated D5**
 
 
 
@@ -90,3 +93,27 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 - [BOJ 14127 Zone](https://www.acmicpc.net/problem/14127)
 
   Solved at 2023/02/05, rated G5
+
+- [BOJ 27386 Class Field Trip](https://www.acmicpc.net/problem/27386)
+
+  Solved at 2023/02/06, rated B2
+
+- [BOJ 27387 Ghost Leg](https://www.acmicpc.net/problem/27387)
+
+  Solved at 2023/02/06, rated S5
+
+- [BOJ 27389 Metronome](https://www.acmicpc.net/problem/27389)
+
+  Solved at 2023/02/06, rated B5
+
+- [BOJ 27393 Smallest Calculated Value](https://www.acmicpc.net/problem/27393)
+
+  Solved at 2023/02/06, rated B1
+
+- [BOJ 27384 Beast Bullies](https://www.acmicpc.net/problem/27384)
+
+  Solved at 2023/02/06, rated G3
+
+- [BOJ 27388 MazeMan](https://www.acmicpc.net/problem/27388)
+
+  Solved at 2023/02/06, rated S1
