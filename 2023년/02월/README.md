@@ -1,3 +1,3 @@
 #### 2월 7일
 
-- **[백준 8301 Evacuation]** MCMF :heavy_check_mark:
+- **[백준 8301 Evacuation]** MFMC :heavy_check_mark:
