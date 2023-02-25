@@ -23,8 +23,8 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 13. [BOJ 24202 Regering](https://www.acmicpc.net/problem/24202) - Solved at 2023/02/09, rated P1
 14. [BOJ 26886 Plocka Äpplen](https://www.acmicpc.net/problem/26886) - Solved at 2023/02/09, rated G5
 15. [BOJ 26883 Spotify Connect](https://www.acmicpc.net/problem/26883) - Solved at 2023/02/10, rated S5
-
-
+16. [BOJ 26887 Skridskor](https://www.acmicpc.net/problem/26887) - Solved at 2023/02/10, rated G3
+17. [BOJ 26917 Strumpmatchning 2](https://www.acmicpc.net/problem/26917) - Solved at 2023/02/15, **rated D4**
 
 ## First rate
 
@@ -48,3 +48,12 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 16. [BOJ 27384 Beast Bullies](https://www.acmicpc.net/problem/27384) - Solved at 2023/02/06, rated G3
 17. [BOJ 27388 MazeMan](https://www.acmicpc.net/problem/27388) - Solved at 2023/02/06, rated S1
 18. [BOJ 26508 Semmy](https://www.acmicpc.net/problem/26508) - Solved at 2023/02/07, rated S5
+19. [BOJ 9782 Median](https://www.acmicpc.net/problem/9782) - Solved at 2023/02/12, rated B4
+20. [BOJ 9784 Boiled Eggs](https://www.acmicpc.net/problem/9784) - Solved at 2023/02/12, rated B2
+21. [BOJ 9785 Damage Over Time](https://www.acmicpc.net/problem/9785) - Solved at 2023/02/12, rated B1
+22. [BOJ 9786 Common Fraction](https://www.acmicpc.net/problem/9786) - Solved at 2023/02/12, rated B2
+23. [BOJ 9773 ID Key](https://www.acmicpc.net/problem/9773) - Solved at 2023/02/12, rated B3
+24. [BOJ 9787 Olympic Games Ranking](https://www.acmicpc.net/problem/9787) - Solved at 2023/02/12, rated S3
+25. [BOJ 9793 Length and Frequency of Sentences](https://www.acmicpc.net/problem/9793) - Solved at 2023/02/15, rated B2
+26. [BOJ 9790 Elephant Show](https://www.acmicpc.net/problem/9790) - Solved at 2023/02/15, rated S2
+27. [BOJ 9791 Encoding Binary Numbers](https://www.acmicpc.net/problem/9791) - Solved at 2023/02/15, rated S5
