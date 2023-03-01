@@ -57,3 +57,4 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 25. [BOJ 9793 Length and Frequency of Sentences](https://www.acmicpc.net/problem/9793) - Solved at 2023/02/15, rated B2
 26. [BOJ 9790 Elephant Show](https://www.acmicpc.net/problem/9790) - Solved at 2023/02/15, rated S2
 27. [BOJ 9791 Encoding Binary Numbers](https://www.acmicpc.net/problem/9791) - Solved at 2023/02/15, rated S5
+28. [BOJ 27595 Another Wine Tasting Event](https://www.acmicpc.net/problem/27595) - Solved at 2023/02/27, rated S5
