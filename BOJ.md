@@ -58,3 +58,6 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 26. [BOJ 9790 Elephant Show](https://www.acmicpc.net/problem/9790) - Solved at 2023/02/15, rated S2
 27. [BOJ 9791 Encoding Binary Numbers](https://www.acmicpc.net/problem/9791) - Solved at 2023/02/15, rated S5
 28. [BOJ 27595 Another Wine Tasting Event](https://www.acmicpc.net/problem/27595) - Solved at 2023/02/27, rated S5
+29. [BOJ 22714 Finding the Top RPS Player](https://www.acmicpc.net/problem/22714) - Solved at 2023/03/03, rated S1
+30. [BOJ 3471 Complete the sequence!](https://www.acmicpc.net/problem/3471) - Solved at 2023/03/14, rated G4
+31. [BOJ 4069 Hie with the Pie](https://www.acmicpc.net/problem/4069) - Solved at 2023/03/15, rated G3
