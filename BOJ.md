@@ -25,6 +25,9 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 15. [BOJ 26883 Spotify Connect](https://www.acmicpc.net/problem/26883) - Solved at 2023/02/10, rated S5
 16. [BOJ 26887 Skridskor](https://www.acmicpc.net/problem/26887) - Solved at 2023/02/10, rated G3
 17. [BOJ 26917 Strumpmatchning 2](https://www.acmicpc.net/problem/26917) - Solved at 2023/02/15, **rated D4**
+18. [BOJ 6251 Leaking Dike](https://www.acmicpc.net/problem/6251) - Solved at 2023/04/03, rated B3
+19. [BOJ 6253 Forgetful Waiter](https://www.acmicpc.net/problem/6253) - Solved at 2023/04/03, rated P3
+20. [BOJ 6254 Computerizing a Stockroom](https://www.acmicpc.net/problem/6254) - Solved at 2023/04/03, rated G4
 
 ## First rate
 
@@ -61,3 +64,4 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 29. [BOJ 22714 Finding the Top RPS Player](https://www.acmicpc.net/problem/22714) - Solved at 2023/03/03, rated S1
 30. [BOJ 3471 Complete the sequence!](https://www.acmicpc.net/problem/3471) - Solved at 2023/03/14, rated G4
 31. [BOJ 4069 Hie with the Pie](https://www.acmicpc.net/problem/4069) - Solved at 2023/03/15, rated G3
+32. [BOJ 21283 Cherimoyor](https://www.acmicpc.net/problem/21283) - Solved at 2023/03/27, rated G3
