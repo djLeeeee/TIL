@@ -138,13 +138,9 @@ for _ in range(int(input())):
 
 > 주어진 $m$, $p$, $a$에 대해 $n^n + n^m \equiv a \mod p$ 가 되는 $n$을 구하자!
 
-페르마의 소정리 대환장 파티인 문제였다. 좌변을 좀 정리해보자. $n \equiv x \mod p$일 때
+페르마의 소정리 대환장 파티인 문제였다. 좌변을 좀 정리해보자. $n \equiv x \mod p$, $n \equiv y \mod (p - 1)$ 일 때 
 
-$n^n \equiv x^n \equiv x^{p - 1}\cdots x^{p - 1} \cdot x^{n \% (p - 1)} \equiv x^{n \% (p - 1)} \mod p$
-
-편의를 위해 $n \equiv y \mod (p - 1)$ 라 하면,
-
-$n^n \equiv x^y \mod p$ 이고 $n^m \equiv x^m \mod p$ 가 된다.
+$n^n \equiv x^n \equiv x^{p - 1} \cdots x^{p - 1} \cdot x^y \equiv x^y \mod p$
 
 따라서 우리가 구하는 문제는 아래와 같이 다시 쓸 수 있다.
 
