@@ -28,6 +28,7 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 18. [BOJ 6251 Leaking Dike](https://www.acmicpc.net/problem/6251) - Solved at 2023/04/03, rated B3
 19. [BOJ 6253 Forgetful Waiter](https://www.acmicpc.net/problem/6253) - Solved at 2023/04/03, rated P3
 20. [BOJ 6254 Computerizing a Stockroom](https://www.acmicpc.net/problem/6254) - Solved at 2023/04/03, rated G4
+21. [BOJ 21329 Candy](https://www.acmicpc.net/problem/21329) - Solved at 2023/06/01, rated P1
 
 ## First rate
 
