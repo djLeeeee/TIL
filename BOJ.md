@@ -28,7 +28,8 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 18. [BOJ 6251 Leaking Dike](https://www.acmicpc.net/problem/6251) - Solved at 2023/04/03, rated B3
 19. [BOJ 6253 Forgetful Waiter](https://www.acmicpc.net/problem/6253) - Solved at 2023/04/03, rated P3
 20. [BOJ 6254 Computerizing a Stockroom](https://www.acmicpc.net/problem/6254) - Solved at 2023/04/03, rated G4
-21. [BOJ 21329 Candy](https://www.acmicpc.net/problem/21329) - Solved at 2023/06/01, rated P1
+21. [BOJ 21329 Candy](https://www.acmicpc.net/problem/21329) - Solved at 2023/06/01, rated P5
+22. [BOJ 26682 Samochody dostawcze](https://www.acmicpc.net/problem/26682) - Solved at 2023/06/10, rated S1
 
 ## First rate
 
@@ -66,3 +67,5 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 30. [BOJ 3471 Complete the sequence!](https://www.acmicpc.net/problem/3471) - Solved at 2023/03/14, rated G4
 31. [BOJ 4069 Hie with the Pie](https://www.acmicpc.net/problem/4069) - Solved at 2023/03/15, rated G3
 32. [BOJ 21283 Cherimoyor](https://www.acmicpc.net/problem/21283) - Solved at 2023/03/27, rated G3
+33. [BOJ 3575 Enchanted Mirror](https://www.acmicpc.net/problem/3575) - Solved at 2023/06/02, rated B1
+34. [BOJ 8850 Witraż](https://www.acmicpc.net/problem/8850) - Solved at 2023/06/09, rated G3
