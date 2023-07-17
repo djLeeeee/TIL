@@ -69,3 +69,7 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 32. [BOJ 21283 Cherimoyor](https://www.acmicpc.net/problem/21283) - Solved at 2023/03/27, rated G3
 33. [BOJ 3575 Enchanted Mirror](https://www.acmicpc.net/problem/3575) - Solved at 2023/06/02, rated B1
 34. [BOJ 8850 Witraż](https://www.acmicpc.net/problem/8850) - Solved at 2023/06/09, rated G3
+35. [BOJ 26449 Harvest](https://www.acmicpc.net/problem/26449) - Solved at 2023/06/18, rated S3
+36. [BOJ 28257 알록달록 초콜릿 만들기](https://www.acmicpc.net/problem/28257) - Solved at 2023/06/25, rated G4
+37. [BOJ 26748 Antypalindrom](https://www.acmicpc.net/problem/26748) - Solved at 2023/07/12, rated G5
+38. [BOJ 20882 Röksignaler](https://www.acmicpc.net/problem/20882) - Solved at 2023/07/16, rated G5
