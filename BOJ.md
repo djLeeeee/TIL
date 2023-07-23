@@ -73,3 +73,7 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 36. [BOJ 28257 알록달록 초콜릿 만들기](https://www.acmicpc.net/problem/28257) - Solved at 2023/06/25, rated G4
 37. [BOJ 26748 Antypalindrom](https://www.acmicpc.net/problem/26748) - Solved at 2023/07/12, rated G5
 38. [BOJ 20882 Röksignaler](https://www.acmicpc.net/problem/20882) - Solved at 2023/07/16, rated G5
+39. [BOJ 19886 Гири](https://www.acmicpc.net/problem/19886) - Solved at 2023/07/19, rated S1
+40. [BOJ 19881 Пизанская башня](https://www.acmicpc.net/problem/19881) - Solved at 2023/07/20, rated S1
+41. [BOJ 19884 Шпаги](https://www.acmicpc.net/problem/19884) - Solved at 2023/07/20, rated S3
+42. [BOJ 21666 Треугольник Максима](https://www.acmicpc.net/problem/21666) - Solved at 2023/07/23, rated B3
