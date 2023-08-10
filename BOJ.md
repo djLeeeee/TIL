@@ -30,6 +30,11 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 20. [BOJ 6254 Computerizing a Stockroom](https://www.acmicpc.net/problem/6254) - Solved at 2023/04/03, rated G4
 21. [BOJ 21329 Candy](https://www.acmicpc.net/problem/21329) - Solved at 2023/06/01, rated P5
 22. [BOJ 26682 Samochody dostawcze](https://www.acmicpc.net/problem/26682) - Solved at 2023/06/10, rated S1
+23. [BOJ 8568 Skoczki](https://www.acmicpc.net/problem/8568) - Solved at 2023/07/26, rated P2
+24. [BOJ 20454 Кампус](https://www.acmicpc.net/problem/20454) - Solved at 2023/07/28, rated B2
+25. [BOJ 21701 Маджонг](https://www.acmicpc.net/problem/21701) - Solved at 2023/07/28, rated S3
+
+
 
 ## First rate
 
@@ -77,3 +82,6 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 40. [BOJ 19881 Пизанская башня](https://www.acmicpc.net/problem/19881) - Solved at 2023/07/20, rated S1
 41. [BOJ 19884 Шпаги](https://www.acmicpc.net/problem/19884) - Solved at 2023/07/20, rated S3
 42. [BOJ 21666 Треугольник Максима](https://www.acmicpc.net/problem/21666) - Solved at 2023/07/23, rated B3
+43. [BOJ 21496 Вырубка леса](https://www.acmicpc.net/problem/21496) - Solved at 2023/07/28, rated S2
+44. [BOJ 21495 Кольцевая линия](https://www.acmicpc.net/problem/21495) - Solved at 2023/07/28, rated S3
+45. [BOJ 26355 Sorry About That, Chief!](https://www.acmicpc.net/problem/26355) - Solved at 2023/08/11, rated B2
