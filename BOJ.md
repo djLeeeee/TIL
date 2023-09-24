@@ -33,6 +33,13 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 23. [BOJ 8568 Skoczki](https://www.acmicpc.net/problem/8568) - Solved at 2023/07/26, rated P2
 24. [BOJ 20454 Кампус](https://www.acmicpc.net/problem/20454) - Solved at 2023/07/28, rated B2
 25. [BOJ 21701 Маджонг](https://www.acmicpc.net/problem/21701) - Solved at 2023/07/28, rated S3
+26. [BOJ 30080 Hobitai](https://www.acmicpc.net/problem/30080) - Solved at 2023/09/19, rated S2
+27. [BOJ 30082 Atvirutės](https://www.acmicpc.net/problem/30082) - Solved at 2023/09/20, rated S2
+28. [BOJ 30083 Vitaminai](https://www.acmicpc.net/problem/30083) - Solved at 2023/09/20, rated S2
+29. [BOJ 30071 Badmintonas](https://www.acmicpc.net/problem/30071) - Solved at 2023/09/22, rated S3
+30. [BOJ 30075 Sveikas, Pasauli!](https://www.acmicpc.net/problem/30075) - Solved at 2023/09/22, rated B2
+31. [BOJ 30072 Žygis](https://www.acmicpc.net/problem/30072) - Solved at 2023/09/23, rated S2
+32. [BOJ 30074 Tvoros dažymas](https://www.acmicpc.net/problem/30074) - Solved at 2023/09/24, rated S2
 
 
 
@@ -85,3 +92,4 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 43. [BOJ 21496 Вырубка леса](https://www.acmicpc.net/problem/21496) - Solved at 2023/07/28, rated S2
 44. [BOJ 21495 Кольцевая линия](https://www.acmicpc.net/problem/21495) - Solved at 2023/07/28, rated S3
 45. [BOJ 26355 Sorry About That, Chief!](https://www.acmicpc.net/problem/26355) - Solved at 2023/08/11, rated B2
+46. [BOJ 30081 Voriukas](https://www.acmicpc.net/problem/30081) - Solved at 2023/09/20, rated S2
