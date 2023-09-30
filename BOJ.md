@@ -53,7 +53,7 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 43. [BOJ 7265 Herbamedžiai](https://www.acmicpc.net/problem/7265) - Solved at 2023/09/28, rated S2
 44. [BOJ 7267 Plaukimo varžybos](https://www.acmicpc.net/problem/7267) - Solved at 2023/09/29, rated G4
 45. [BOJ 7268 Televizija](https://www.acmicpc.net/problem/7268) - Solved at 2023/09/29, rated G3
-46. [BOJ 30281 Saldainiai](https://www.acmicpc.net/problem/7268) - Solved at 2023/10/01, rated B2
+46. [BOJ 30281 Saldainiai](https://www.acmicpc.net/problem/30281) - Solved at 2023/10/01, rated B2
 
 
 
