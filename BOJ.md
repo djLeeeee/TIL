@@ -40,6 +40,20 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 30. [BOJ 30075 Sveikas, Pasauli!](https://www.acmicpc.net/problem/30075) - Solved at 2023/09/22, rated B2
 31. [BOJ 30072 Žygis](https://www.acmicpc.net/problem/30072) - Solved at 2023/09/23, rated S2
 32. [BOJ 30074 Tvoros dažymas](https://www.acmicpc.net/problem/30074) - Solved at 2023/09/24, rated S2
+33. [BOJ 7270 Keleiviai](https://www.acmicpc.net/problem/7270) - Solved at 2023/09/25, rated S1
+34. [BOJ 7269 Lygtys](https://www.acmicpc.net/problem/7269) - Solved at 2023/09/25, rated B1
+35. [BOJ 30073 Kryžiažodis](https://www.acmicpc.net/problem/30073) - Solved at 2023/09/25, rated S4
+36. [BOJ 7271 Viršininkai](https://www.acmicpc.net/problem/7271) - Solved at 2023/09/25, rated G3
+37. [BOJ 7274 Liftas](https://www.acmicpc.net/problem/7274) - Solved at 2023/09/25, rated S4
+38. [BOJ 7275 Liftas](https://www.acmicpc.net/problem/7275) - Solved at 2023/09/25, rated B1
+39. [BOJ 7276 Lenktynės](https://www.acmicpc.net/problem/7276) - Solved at 2023/09/25, rated S2
+40. [BOJ 7277 Metro](https://www.acmicpc.net/problem/7277) - Solved at 2023/09/26, rated G5
+41. [BOJ 7259 Monthly railway pass](https://www.acmicpc.net/problem/7259) - Solved at 2023/09/27, rated G1
+42. [BOJ 7264 Apsukimas](https://www.acmicpc.net/problem/7264) - Solved at 2023/09/27, rated S1
+43. [BOJ 7265 Herbamedžiai](https://www.acmicpc.net/problem/7265) - Solved at 2023/09/28, rated S2
+44. [BOJ 7267 Plaukimo varžybos](https://www.acmicpc.net/problem/7267) - Solved at 2023/09/29, rated G4
+45. [BOJ 7268 Televizija](https://www.acmicpc.net/problem/7268) - Solved at 2023/09/29, rated G3
+46. [BOJ 30281 Saldainiai](https://www.acmicpc.net/problem/7268) - Solved at 2023/10/01, rated B2
 
 
 
@@ -93,3 +107,6 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 44. [BOJ 21495 Кольцевая линия](https://www.acmicpc.net/problem/21495) - Solved at 2023/07/28, rated S3
 45. [BOJ 26355 Sorry About That, Chief!](https://www.acmicpc.net/problem/26355) - Solved at 2023/08/11, rated B2
 46. [BOJ 30081 Voriukas](https://www.acmicpc.net/problem/30081) - Solved at 2023/09/20, rated S2
+47. [BOJ 7279 Autobusas](https://www.acmicpc.net/problem/7279) - Solved at 2023/09/27, rated B3
+48. [BOJ 7280 Kortos](https://www.acmicpc.net/problem/7280) - Solved at 2023/09/27, rated B3
+49. [BOJ 7281 Internetas](https://www.acmicpc.net/problem/7281) - Solved at 2023/09/27, rated B2
