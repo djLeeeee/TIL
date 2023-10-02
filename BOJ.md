@@ -63,7 +63,7 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 53. [BOJ 30064 Pabėgimo kambarys](https://www.acmicpc.net/problem/30064) - Solved at 2023/10/02, rated S5
 54. [BOJ 30065 Dešifravimas](https://www.acmicpc.net/problem/30065) - Solved at 2023/10/03, rated S2
 55. [BOJ 30066 Išmaniosios svarstyklės](https://www.acmicpc.net/problem/30066) - Solved at 2023/10/03, rated G4
-56. [BOJ 7243 Gyvūnai](https://www.acmicpc.net/problem/30066) - Solved at 2023/10/03, rated G4
+56. [BOJ 7243 Gyvūnai](https://www.acmicpc.net/problem/7243) - Solved at 2023/10/03, rated G4
 
 
 
