@@ -54,6 +54,16 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 44. [BOJ 7267 Plaukimo varžybos](https://www.acmicpc.net/problem/7267) - Solved at 2023/09/29, rated G4
 45. [BOJ 7268 Televizija](https://www.acmicpc.net/problem/7268) - Solved at 2023/09/29, rated G3
 46. [BOJ 30281 Saldainiai](https://www.acmicpc.net/problem/30281) - Solved at 2023/10/01, rated B2
+47. [BOJ 30284 Karjeras](https://www.acmicpc.net/problem/30284) - Solved at 2023/10/02, rated G4
+48. [BOJ 30276 Traukinys](https://www.acmicpc.net/problem/30276) - Solved at 2023/10/02, rated G4
+49. [BOJ 30068 Stovėjimo aikštelė](https://www.acmicpc.net/problem/30068) - Solved at 2023/10/02, rated B2
+50. [BOJ 30069 Grąža](https://www.acmicpc.net/problem/30069) - Solved at 2023/10/02, rated S1
+51. [BOJ 30070 Kaladėlės](https://www.acmicpc.net/problem/30070) - Solved at 2023/10/02, rated G5
+52. [BOJ 30063 Pabėgimo kambarys](https://www.acmicpc.net/problem/30063) - Solved at 2023/10/02, rated B1
+53. [BOJ 30064 Pabėgimo kambarys](https://www.acmicpc.net/problem/30064) - Solved at 2023/10/02, rated S5
+54. [BOJ 30065 Dešifravimas](https://www.acmicpc.net/problem/30065) - Solved at 2023/10/03, rated S2
+55. [BOJ 30066 Išmaniosios svarstyklės](https://www.acmicpc.net/problem/30066) - Solved at 2023/10/03, rated G4
+56. [BOJ 7243 Gyvūnai](https://www.acmicpc.net/problem/30066) - Solved at 2023/10/03, rated G4
 
 
 
