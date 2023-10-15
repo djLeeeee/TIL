@@ -64,6 +64,8 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 54. [BOJ 30065 Dešifravimas](https://www.acmicpc.net/problem/30065) - Solved at 2023/10/03, rated S2
 55. [BOJ 30066 Išmaniosios svarstyklės](https://www.acmicpc.net/problem/30066) - Solved at 2023/10/03, rated G4
 56. [BOJ 7243 Gyvūnai](https://www.acmicpc.net/problem/7243) - Solved at 2023/10/03, rated G4
+57. [BOJ 30280 Vidutinė temperatūra](https://www.acmicpc.net/problem/30280) - Solved at 2023/10/03, rated S2
+58. [BOJ 30278 Kepiniai](https://www.acmicpc.net/problem/30278) - Solved at 2023/10/03, rated G5
 
 
 
@@ -120,3 +122,5 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 47. [BOJ 7279 Autobusas](https://www.acmicpc.net/problem/7279) - Solved at 2023/09/27, rated B3
 48. [BOJ 7280 Kortos](https://www.acmicpc.net/problem/7280) - Solved at 2023/09/27, rated B3
 49. [BOJ 7281 Internetas](https://www.acmicpc.net/problem/7281) - Solved at 2023/09/27, rated B2
+50. [BOJ 17768 Słowo](https://www.acmicpc.net/problem/17768) - Solved at 2023/10/03, rated G3
+51. [BOJ 8746 Śmieszny konkurs informatyczny](https://www.acmicpc.net/problem/8746) - Solved at 2023/10/03, rated G3
