@@ -66,6 +66,17 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 56. [BOJ 7243 Gyvūnai](https://www.acmicpc.net/problem/7243) - Solved at 2023/10/03, rated G4
 57. [BOJ 30280 Vidutinė temperatūra](https://www.acmicpc.net/problem/30280) - Solved at 2023/10/03, rated S2
 58. [BOJ 30278 Kepiniai](https://www.acmicpc.net/problem/30278) - Solved at 2023/10/03, rated G5
+59. [BOJ 29678 Монеты и гнезда](https://www.acmicpc.net/problem/29678) - Solved at 10/20, rated S4
+60. [BOJ 29679 ГЛОНАСС](https://www.acmicpc.net/problem/29679) - Solved at 10/20, rated B4
+61. [BOJ 29682 Обратные числа](https://www.acmicpc.net/problem/29682) - Solved at 10/20, rated G4
+62. [BOJ 29689 Рекламный плакат](https://www.acmicpc.net/problem/29689) - Solved at 10/20, rated S4
+63. [BOJ 29681 Муха в банке](https://www.acmicpc.net/problem/29681) - Solved at 10/20, rated G4
+64. [BOJ 29664 Лепреконское золото](https://www.acmicpc.net/problem/29664) - Solved at 10/20, rated S4
+65. [BOJ 29665 Награды](https://www.acmicpc.net/problem/29665) - Solved at 10/20, rated G4
+66. [BOJ 29666 Блокировка телефона](https://www.acmicpc.net/problem/29666) - Solved at 10/21, rated B3
+67. [BOJ 29668 Вещественное число](https://www.acmicpc.net/problem/29668) - Solved at 10/21, rated S3
+68. [BOJ 29657 Стандарты времени](https://www.acmicpc.net/problem/29657) - Solved at 10/20, rated B3
+69. [BOJ 29596 Шары](https://www.acmicpc.net/problem/29596) - Solved at 10/21, rated B2
 
 
 
@@ -124,3 +135,14 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 49. [BOJ 7281 Internetas](https://www.acmicpc.net/problem/7281) - Solved at 2023/09/27, rated B2
 50. [BOJ 17768 Słowo](https://www.acmicpc.net/problem/17768) - Solved at 2023/10/03, rated G3
 51. [BOJ 8746 Śmieszny konkurs informatyczny](https://www.acmicpc.net/problem/8746) - Solved at 2023/10/03, rated G3
+52. [BOJ 28937 Подарок Диппера](https://www.acmicpc.net/problem/28937) - Solved at 10/17, rated G2
+53. [BOJ 28939 Шкаф для обуви](https://www.acmicpc.net/problem/28939) - Solved at 10/18, rated B3
+54. [BOJ 28940 Дневник Гравити Фолз](https://www.acmicpc.net/problem/28940) - Solved at 10/18, rated B4
+55. [BOJ 28941 Цифровая загадка](https://www.acmicpc.net/problem/28941) - Solved at 10/18, rated S3
+56. [BOJ 28857 Морской бой](https://www.acmicpc.net/problem/28857) - Solved at 10/19, rated G5
+57. [BOJ 28858 Пасьянс](https://www.acmicpc.net/problem/28858) - Solved at 10/19, rated S3
+58. [BOJ 28859 Капли](https://www.acmicpc.net/problem/28859) - Solved at 10/19, rated S5
+59. [BOJ 28861 Морти и пароль](https://www.acmicpc.net/problem/28861) - Solved at 10/19, rated G4
+60. [BOJ 28862 Матрица Рика](https://www.acmicpc.net/problem/28862) - Solved at 10/19, rated G5
+61. [BOJ 29683 Рождественская лотерея](https://www.acmicpc.net/problem/29683) - Solved at 10/20, rated B4
+62. [BOJ 29662 Праздничная олимпиада](https://www.acmicpc.net/problem/29662) - Solved at 10/20, rated S2
