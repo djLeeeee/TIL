@@ -77,6 +77,16 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 67. [BOJ 29668 Вещественное число](https://www.acmicpc.net/problem/29668) - Solved at 10/21, rated S3
 68. [BOJ 29657 Стандарты времени](https://www.acmicpc.net/problem/29657) - Solved at 10/20, rated B3
 69. [BOJ 29596 Шары](https://www.acmicpc.net/problem/29596) - Solved at 10/21, rated B2
+70. [BOJ 29597 Электронные часы](https://www.acmicpc.net/problem/29597) - Solved at 10/22, rated S2
+71. [BOJ 29598 Два формата](https://www.acmicpc.net/problem/29598) - Solved at 10/22, rated B2
+72. [BOJ 29599 Бряк](https://www.acmicpc.net/problem/29599) - Solved at 10/22, rated S4
+73. [BOJ 29600 Задача про перестановку](https://www.acmicpc.net/problem/29600) - Solved at 10/22, rated S3
+74. [BOJ 29601 Железная дорога](https://www.acmicpc.net/problem/29601) - Solved at 10/22, rated B3
+75. [BOJ 29602 Расписание](https://www.acmicpc.net/problem/29602) - Solved at 10/22, rated B2
+76. [BOJ 29603 Треугольник](https://www.acmicpc.net/problem/29603) - Solved at 10/22, rated B2
+77. [BOJ 29653 Гонки на машинках](https://www.acmicpc.net/problem/29653) - Solved at 10/23, rated B1
+78. [BOJ 29644 Прямоугольный полигон](https://www.acmicpc.net/problem/29644) - Solved at 10/23, rated B2
+79. [BOJ 30767 Dungeons & Dragons](https://www.acmicpc.net/problem/30767) - Solved at 11/26, rated B2
 
 
 
@@ -146,3 +156,4 @@ Handle : bomul1128 [BOJ](https://www.acmicpc.net/user/bomul1128) [solved.ac](htt
 60. [BOJ 28862 Матрица Рика](https://www.acmicpc.net/problem/28862) - Solved at 10/19, rated G5
 61. [BOJ 29683 Рождественская лотерея](https://www.acmicpc.net/problem/29683) - Solved at 10/20, rated B4
 62. [BOJ 29662 Праздничная олимпиада](https://www.acmicpc.net/problem/29662) - Solved at 10/20, rated S2
+63. [BOJ 21519 Киноакадемия](https://www.acmicpc.net/problem/21519) - Solved at 10/28, rated S3
